@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iShare Pro - Privacy Policy & Terms</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .tabs {
+            display: flex;
+            background: #f5f5f5;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .tab {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            background: transparent;
+            color: #666;
+        }
+
+        .tab:hover {
+            background: #e8e8e8;
+        }
+
+        .tab.active {
+            background: white;
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .content {
+            padding: 40px;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        h2:first-child {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .contact {
+            background: #f0f4ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-left: 4px solid #667eea;
+        }
+
+        .last-updated {
+            color: #888;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .tab {
+                padding: 15px 10px;
+                font-size: 0.95em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>iShare Pro</h1>
+            <p>Privacy Policy & Terms and Conditions</p>
+        </div>
+
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('privacy')">Privacy Policy</button>
+            <button class="tab" onclick="showTab('terms')">Terms & Conditions</button>
+        </div>
+
+        <div class="content">
+            <div id="privacy" class="tab-content active">
+                <p class="last-updated">Last Updated: January 2026</p>
+
+                <h2>1. INTRODUCTION</h2>
+                <p>Welcome to iShare Pro. We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we handle your information when you use our file transfer application.</p>
+
+                <h2>2. HOW iShare PRO WORKS</h2>
+                <p>iShare Pro is a peer-to-peer (P2P) file sharing tool.</p>
+                <ul>
+                    <li>Files are transferred directly between devices using your local Wi-Fi network or Hotspot.</li>
+                    <li>We DO NOT upload your files to any external server or cloud storage.</li>
+                    <li>We DO NOT view, access, or store the content of the files you share.</li>
+                </ul>
+
+                <h2>3. DATA WE COLLECT</h2>
+                <p>We collect minimal data necessary for the app to function:</p>
+                <ul>
+                    <li><strong>Device Name:</strong> Used to identify your device to other users nearby. This is stored locally on your device.</li>
+                    <li><strong>Network Information:</strong> Used temporarily to discover other devices on the same network.</li>
+                </ul>
+
+                <h2>4. PERMISSIONS WE REQUEST</h2>
+                <p>To function correctly, iShare Pro requires the following permissions:</p>
+                <ul>
+                    <li><strong>Storage / Photos & Videos:</strong> To select files to send and to save received files.</li>
+                    <li><strong>Location / Nearby Devices:</strong> Required by the Android system to discover local Wi-Fi networks and nearby devices. We do not track your physical GPS location.</li>
+                    <li><strong>Wi-Fi/Network State:</strong> To manage connections between devices.</li>
+                </ul>
+
+                <h2>5. THIRD-PARTY SHARING</h2>
+                <p>We do not sell, trade, or transfer your information to third parties. Since files are transferred locally, no third party has access to your transfers.</p>
+
+                <h2>6. CONTACT US</h2>
+                <div class="contact">
+                    <p>If you have any questions about this Privacy Policy, please contact us at:<br>
+                    <strong>teczosoftwares@gmail.com</strong></p>
+                </div>
+            </div>
+
+            <div id="terms" class="tab-content">
+                <p class="last-updated">Last Updated: January 2026</p>
+
+                <h2>1. ACCEPTANCE OF TERMS</h2>
+                <p>By downloading or using iShare Pro, you agree to be bound by these Terms and Conditions. If you do not agree, please do not use the app.</p>
+
+                <h2>2. USE OF THE APP</h2>
+                <p>You agree to use iShare Pro only for lawful purposes. You are strictly prohibited from using this app to share:</p>
+                <ul>
+                    <li>Malware, viruses, or malicious software.</li>
+                    <li>Copyrighted material without permission.</li>
+                    <li>Illegal, abusive, or offensive content.</li>
+                </ul>
+
+                <h2>3. USER RESPONSIBILITY</h2>
+                <p>You are solely responsible for the content you share. iShare Pro is a tool for transfer, not a content moderator. We assume no liability for the files transferred between users.</p>
+
+                <h2>4. DISCLAIMER OF WARRANTIES</h2>
+                <p>iShare Pro is provided "AS IS" without warranty of any kind. We do not guarantee that:</p>
+                <ul>
+                    <li>File transfers will always be successful.</li>
+                    <li>The app will be error-free or uninterrupted.</li>
+                    <li>It will work on all device configurations.</li>
+                </ul>
+
+                <h2>5. LIMITATION OF LIABILITY</h2>
+                <p>To the fullest extent permitted by law, the developers of iShare Pro shall not be liable for any damages, data loss, or security breaches resulting from the use or inability to use the app.</p>
+
+                <h2>6. CHANGES TO TERMS</h2>
+                <p>We reserve the right to modify these terms at any time. Continued use of the app constitutes acceptance of the updated terms.</p>
+
+                <div class="contact">
+                    <p>For questions regarding these Terms and Conditions, please contact:<br>
+                    <strong>teczosoftwares@gmail.com</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showTab(tabName) {
+            const tabs = document.querySelectorAll('.tab');
+            const contents = document.querySelectorAll('.tab-content');
+            
+            tabs.forEach(tab => tab.classList.remove('active'));
+            contents.forEach(content => content.classList.remove('active'));
+            
+            event.target.classList.add('active');
+            document.getElementById(tabName).classList.add('active');
+        }
+    </script>
+</body>
+</html>
